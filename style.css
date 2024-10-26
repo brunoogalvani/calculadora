@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(216, 216, 216);
+}
+
+.calculator {
+    text-align: center;
+    width: 16%;
+    box-sizing: content-box;
+    padding: 15px;
+    border-radius: 30px;
+    background: rgb(75, 75, 75);
+}
+
+.btn {
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.7rem;
+    margin: .2rem;
+    border: 0;
+    border-radius: 50px;
+    background: rgb(141, 141, 141);
+    transition: .1s background ease-in;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgb(163, 163, 163);
+}
+
+.btn:active {
+    background: rgb(197, 197, 197);
+}
+
+.double {
+    width: 8.7rem;
+}
+
+.triple {
+    width: 13.4rem;
+    background: rgb(172, 172, 172);
+    transition: .1s background ease-in;
+}
+
+.triple:hover {
+    background: rgb(201, 201, 201);
+}
+
+.triple:active {
+    background: rgb(228, 228, 228);
+}
+
+.visor {
+    width: 18rem;
+    height: 4rem;
+    margin-bottom: .5rem;
+    padding: 20px;
+    font-size: 1.7rem;
+    text-align: right;
+    outline: 0;
+    cursor: auto;
+    border: 0;
+    border-radius: 50px;
+    background: rgb(109, 109, 109);
+}
+
+.sinal {
+    color: white;
+    background: rgb(219, 143, 0);
+    transition: .1s background ease-in;
+}
+
+.sinal:hover {
+    background: rgb(177, 115, 0);
+}
+
+.sinal:active {
+    background: rgb(211, 137, 0);
+}

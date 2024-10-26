@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input class="visor" readonly>
+
+        <input class="btn triple light" type="button" value="C" onclick="limparDisplay()">
+        <input class="btn sinal" type="button" value="/" onclick="inserirDisplay('/')">
+
+        <input class="btn" type="button" value="7" onclick="inserirDisplay('7')">
+        <input class="btn" type="button" value="8" onclick="inserirDisplay('8')">
+        <input class="btn" type="button" value="9" onclick="inserirDisplay('9')">
+        <input class="btn sinal" type="button" value="x" onclick="inserirDisplay('*')">
+        
+        <input class="btn" type="button" value="4" onclick="inserirDisplay('4')">
+        <input class="btn" type="button" value="5" onclick="inserirDisplay('5')">
+        <input class="btn" type="button" value="6" onclick="inserirDisplay('6')">
+        <input class="btn sinal" type="button" value="-" onclick="inserirDisplay('-')">
+
+        <input class="btn" type="button" value="1" onclick="inserirDisplay('1')">
+        <input class="btn" type="button" value="2" onclick="inserirDisplay('2')">
+        <input class="btn" type="button" value="3" onclick="inserirDisplay('3')">
+        <input class="btn sinal" type="button" value="+" onclick="inserirDisplay('+')">
+
+        <input class="btn double" type="button" value="0" onclick="inserirDisplay('0')">
+        <input class="btn" type="button" value="." onclick="inserirDisplay('.')">
+        <input class="btn sinal" type="button" value="=" onclick="calcular()">
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
