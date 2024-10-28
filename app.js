@@ -1,6 +1,9 @@
 let display = document.querySelector('.visor');
 
 function inserirDisplay(input) {
+    if (display.value == "Error") {
+        display.value = "";
+    }
     display.value += input;
 }
 
@@ -9,7 +12,7 @@ function limparDisplay() {
 }
 
 function calcular() {
-    if (!display.value) {
+    if (!display.value.includes("+") & !display.value.includes("-") & !display.value.includes("/") & !display.value.includes("*")) {
         display.value = "";
     } else {
         try {
