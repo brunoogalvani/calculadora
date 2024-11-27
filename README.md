@@ -12,13 +12,13 @@ Uma calculadora simples desenvolvida com HTML, CSS e JavaScript. O projeto simul
 
 ## Tecnologias Utilizadas
 
-HTML5: Estrutura da calculadora.
-CSS3: Estilização da interface.
-JavaScript: Lógica das operações e manipulação do DOM.
+* HTML5: Estrutura da calculadora.
+* CSS3: Estilização da interface.
+* JavaScript: Lógica das operações e manipulação do DOM.
 
 ## Estrutura do Projeto
 
-* index.html -Estrutura da calculadora
+* index.html - Estrutura da calculadora
 * style.css - Estilos e layout
 * app.js - Funcionalidade da calculadora
 
