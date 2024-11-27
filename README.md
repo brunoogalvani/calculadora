@@ -1,5 +1,7 @@
 # Calculadora Simples
 
+![calculadora](https://github.com/user-attachments/assets/28d44aea-b46e-4a02-ab18-2d57246a38a8)
+
 Uma calculadora simples desenvolvida com HTML, CSS e JavaScript. O projeto simula uma calculadora básica, com operações de adição, subtração, multiplicação e divisão.
 
 ## Funcionalidades
